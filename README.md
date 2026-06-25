@@ -1,12 +1,3 @@
-Perfeito. POO puro é mais simples que uma API, mas dá para posicionar bem. Vou te entregar as duas coisas:
-
-1. README para o repositório poo-java
-Copia e cola direto no GitHub:
-markdown# POO com Java — Fundamentos de Orientação a Objetos
-
-Repositório dedicado ao estudo e prática dos conceitos fundamentais de 
-Programação Orientada a Objetos (POO) em Java.
-
 ## Conceitos abordados
 
 - Classes e objetos
