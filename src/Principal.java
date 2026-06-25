@@ -1,4 +1,5 @@
-import Filmes.modelos.Filme;
+import screenmatch.modelos.Filme;
+import screenmatch.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -6,6 +7,7 @@ public class Principal {
         meuFilme.setNome("O poderoso chefão");
         meuFilme.setAnoDeLancamento(1970);
         meuFilme.setDuracaoEmMinutos(180);
+        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
         meuFilme.exibirFichaTecnica();
         meuFilme.avalia(8);
@@ -13,5 +15,13 @@ public class Principal {
         meuFilme.avalia(10);
         System.out.println(meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.obterMedia());
+
+        Serie lost = new Serie();
+        lost.setNome("Lost");
+        lost.setAnoDeLancamento(2000);
+        lost.exibirFichaTecnica();
+        lost.setTemporadas(10);
+        lost.setEpisodiosPorTemporada(10);
+        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
     }
 }
